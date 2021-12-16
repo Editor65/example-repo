@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/RelativeLayout4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".CatsActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:singleLine="false"
+        android:text="КОТИКИ"
+        android:gravity="center_horizontal"
+        android:textColor="@color/blue"
+        android:textSize="26dp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cat1cat1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src = "@drawable/cat2cat2"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="250dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="355dp"
+        android:src="@drawable/cat3cat3" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="355dp"
+        android:src="@drawable/cat4cat4" />
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/back_button" />
+
+</RelativeLayout>

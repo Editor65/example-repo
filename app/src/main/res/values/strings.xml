@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FinalWork</string>
+    <string name="Choice">Если Вам плохо,\nнажмите красный крест\n</string>
+    <string name="Baby">ДОЧЬ</string>
+    <string name="Crest_dial_msg">Вызываю Скорую...</string>
+    <string name="daughter_dial_msg">Набираю номер дочери</string>
+    <string name="back_button">на главную</string>
+    <string name="daughter_button">Позвонить дочери</string>
+    <string name="finally_crest_button">Или все-таки скорую?</string>
+    <string name="button">Котики всегда к месту</string>
+
+</resources>

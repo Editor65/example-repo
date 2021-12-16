@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DaughterActivity"
+    android:id="@+id/RelativeLayout3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/daughter_dial_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        android:singleLine="false"
+        android:text="@string/daughter_dial_msg"
+        android:textColor="@color/red"
+        android:textSize="26dp" />
+
+
+    <ImageButton
+        android:id="@+id/faceface"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+
+
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/faceface" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="50dp"
+
+        android:text="@string/back_button" />
+
+    <Button
+        android:id="@+id/finally_crest_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginBottom="50dp"
+        android:paddingStart="25dp"
+
+        android:text="@string/finally_crest_button"
+        />
+</RelativeLayout>
